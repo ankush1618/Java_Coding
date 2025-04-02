@@ -54,8 +54,8 @@ public class MissingInArray_withDuplicates {
     }
 
     public static void main(String[] args) {
-        int arr[]={1,2,3,4,6,8,6,8};
+        int arr[]={1,2,3,5,6,8,6,8};
         List<Integer> missing=missingElement(arr);
-        System.out.println(missing);
+        System.out.println("Missing Number in Array : "+missing);
     }
 }
